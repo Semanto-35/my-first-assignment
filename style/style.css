@@ -111,6 +111,8 @@ nav{
 }
 /* banner section style ends here */
 
+
+
 /* why web development section style starts here */
 .web-dev-container{
     width: 1140px;
@@ -286,3 +288,95 @@ align-items: start;
 
 }
 /* why web development section style ends here */
+
+
+
+/* inspiretion sectoin style starts here */
+.video{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 88px;
+
+}
+.video-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.video-container{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inspiretion section style ends here */
+
+
+
+/* current target section style starts here */
+.current-target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+.target-text{
+    width: 946px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+}
+.target-items{
+    width: 1140px;
+    height: 299px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.target-box-1{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-box-2{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-box-3{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-column img{
+    width: 64px;
+    height: 64px;
+}
+.target-column{
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.target a, .anchor{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* current target section style ends here */
