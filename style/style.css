@@ -380,3 +380,176 @@ align-items: start;
     font-weight: 700;
 }
 /* current target section style ends here */
+
+
+/* next target section style starts here */
+.next-target{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+.next-target-text{
+    width: 946px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.next-target-items{
+    width: 1140px;
+    height: 705px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nxt-1{
+    width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.nxt-2{
+    width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.nxt-3{
+    width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.next-row{
+    width: 1060px;
+    height: 139px;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+.png-1 img{
+    width: 94.78px;
+    height: 84.41px; 
+    margin-top: 27.3px;
+}
+.png-2 img{
+    width: 143.51px;
+    height: 88px; 
+    margin-top: 25.5px;
+}
+.png-3 img{
+    width: 108px;
+    height: 108px;
+    margin-top: 15.5px;
+}
+.png-1{
+    width: 118.78px;
+    height: 139px;
+}
+.png-2{
+    width: 167.51px;
+    height: 139px;
+}
+.png-3{
+    width: 132px;
+    height: 139px;
+}
+.texter-1{
+    width: 941.22px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texter-2{
+    width: 892.49px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texter-3{
+    width: 928px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* next target section style ends here */
+
+
+
+/* i need support section style starts here */
+.support-section{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.support-container{
+    width: 1044px;
+    height: 186px;
+}
+.support-text{
+    width: 730px;
+    height: 104px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.support-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-btn{
+    margin-left: 180px;
+    margin-top: 24px;
+
+}
+.support-btn input{
+    width: 548px;
+   height: 57px;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 8px;
+   background: rgb(255, 255, 255);
+   font-size: 16px;
+   padding-left: 20px;
+}
+.support-btn button{
+    width: 120px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+/* i need support section style ends here */
