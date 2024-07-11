@@ -8,3 +8,105 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* nav bar section style starts here */
+nav{
+    width: 1140px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar button{
+    width: 228px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.nav-bar a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+}
+/* nav bar section style ends here */
+
+/* banner section style starts here */
+.developer-container{
+    width: 1440px;
+    height: 652px;
+    border: 2px dashed rgb(218, 202, 202);
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.developer-items{
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-item{
+    width: 240.28px;
+    height: 240px;
+}
+.text-item{
+    width: 998px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.text-item h1{
+    width: 998px;
+    height: 136px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.text-item p{
+    line-height: 30px;
+}
+.text-item button{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+/* banner section style ends here */
